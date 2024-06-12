@@ -41,12 +41,16 @@
     font-size: 1.2rem;
 }
 
+// simply put the graphs section in a 3 column to match 
+// added a bit margin for spacing
 .graphs-section {
     columns: 3;
     text-align: center;
     margin-bottom: 5%;
 }
 
+// added a gap and gave it a display of flex to have it in a row
+// made sure it aligned in center with a gap between both buttons
 .view-more-data-btn-container {
     display: flex;
     justify-content: center;
@@ -57,6 +61,14 @@
     margin-bottom: 10%;
 }
 
+// seperate button at the bottom very similar but dont need the extra for gap
+.view-more-data-btn-container-2 {
+    height: 44px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+// another display flex and spaced evenly so it fit box nicely
 .middle-section {
     display: flex;
     justify-content: space-evenly;
@@ -75,10 +87,11 @@
 }
 
 .middle-section-text-container h3 {
-    font-family: 'acumin';
-    font-size: 1.4rem;
+    font-size: 1;
+    margin-left: 32px;
 }
 
+// aligning center gving padding and a max width to look good with the rest of page
 .bottom-section {
     text-align: center;
     margin: 20px auto;
@@ -86,12 +99,14 @@
     max-width: 1700px;
 }
 
+// font size for header text
 .bottom-section h1 {
     font-size: xx-large;
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
+// the container of all 3 items put into a flex row with a gap 
 .info-container {
     display: flex;
     justify-content: center; 
@@ -99,12 +114,14 @@
     margin-bottom: 20px;
 }
 
+
 .info-column {
     flex: 1;
     padding: 10px;
     margin-bottom: 32px;
 }
 
+// font size
 .info-column h2 {
     font-size: 2em;
     margin-bottom: 24px;

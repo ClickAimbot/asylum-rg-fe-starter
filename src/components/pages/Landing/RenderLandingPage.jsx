@@ -116,7 +116,7 @@ function RenderLandingPage(props) {
               </p>
             </div>
           </div>
-          <div className="view-more-data-btn-container">
+          <div className="view-more-data-btn-container-2">
             <Button
               type="default"
               style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
